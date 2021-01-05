@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Penjualan</string>
+
+
+    <string-array name="nama_pakaian">
+        <item>Baju</item>
+        <item>Celana</item>
+        <item>Celana</item>
+    </string-array>
+
+    <string-array name="harga_pakaian" >
+        <item>Rp 10.000</item>
+        <item>Rp 20.000</item>
+        <item>Rp 20.000</item>
+    </string-array>
+
+    <array name="gambar_pakaian" >
+        <item>@drawable/bajukemeja</item>
+        <item>@drawable/celanabahan</item>
+        <item>@drawable/celanabahan</item>
+    </array>
+
+
+</resources>
