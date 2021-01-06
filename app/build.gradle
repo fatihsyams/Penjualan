@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+
+    // berfungsi untuk memanggil ID secara langsung
     id 'kotlin-android-extensions'
 }
 
@@ -44,7 +46,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-
+    // berfungsi untuk nge load data ke tampilan
     implementation 'com.github.bumptech.glide:glide:4.11.0'
 
 }
